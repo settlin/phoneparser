@@ -17,9 +17,10 @@ function parsePhone(e) {
             number: a,
             countryISOCode: n
         };
-        return 973 == d && (o + "").length > 0 && (u.areaCode = "",
+        o = '';
+        return 973 == d && o.length > 0 && (u.areaCode = "",
         u.number = o + a),
-        (974 == d || 968 == d) && (o + "").length > 2 && (u.areaCode = o.substr(0, 2),
+        (974 == d || 968 == d) && o.length > 2 && (u.areaCode = o.substr(0, 2),
         u.number = o.substr(2) + a),
         965 == d && (o + "").length > 3 && (u.areaCode = o.substr(0, 3),
         u.number = o.substr(3) + a),
