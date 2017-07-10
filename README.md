@@ -1,3 +1,9 @@
+Bloated & Deprecated
+====================
+While it works, I will not recommend this. (Mind it, this is also not available at npm, so you have to use it from git directly).
+
+Better option: Use https://github.com/halt-hammerzeit/libphonenumber-js via `npm install libphonenumber-js`. Cleaner, simpler and better.
+
 PhoneParser
 ===========
 
